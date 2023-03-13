@@ -1,5 +1,5 @@
-from abc import ABCMeta, ABC, abstractmethod
-from dataclasses import dataclass, field
+from abc import ABC
+from math import pi, sin, cos
 
 
 class Arm:
@@ -56,3 +56,17 @@ class Lizard(Animal):
 class KukaRobot:
     def __init__(self, arm: Arm) -> None:
         pass
+
+
+def some_function():
+    """_summary_"""
+    x = 100
+    y = x * pi
+    z = y * 100
+
+    new_var = new_func(x, y, z)
+    return new_var
+
+
+def new_func(x, y, z):
+    t = sin(x) * cos(y) + sin(z)
