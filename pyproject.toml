@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hello-oop"
+version = "0.1.0"
+description = "something something composition over inheritance something"
+authors = ["asdftoger <asdftoger@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hello_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
